@@ -1,0 +1,69 @@
+.main-layout {
+
+    @include for-extra-wide-layout {
+        .nav {
+            a {
+                padding: 0px 10px;
+            }
+        }
+    }
+
+    @include for-wide-layout {
+        .nav {
+            padding: 30px 100px;
+        }
+    }
+
+    @include for-medium-layout {
+        .navigation-icon {
+            display: initial;
+        }
+
+        .nav {
+            padding: 20px;
+            position: fixed;
+            width: 100%;
+            z-index: 1;
+
+            a {
+                padding: 25px 0px 25px 10px;
+            }
+
+            a:hover {
+                background-color: #e9e9e9;
+            }
+        }
+
+        .nav-bar {
+            box-sizing: border-box;
+            position: absolute;
+            top: 100px;
+            left: 0px;
+            background-color: whitesmoke;
+            width: 100vw;
+            height: 0px;
+            flex-direction: column;
+            align-items: initial;
+            justify-content: initial;
+            padding-left: 10px;
+            user-select: none;
+            transition: 300ms ease-in-out;
+            overflow: hidden;
+
+            a {
+                color: $clr3;
+            }
+
+            &.active {
+                height: 285px;
+            }
+            
+            :last-child {
+                display: none;
+            }
+        }
+    }
+
+
+
+}

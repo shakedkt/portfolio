@@ -1,0 +1,42 @@
+.main-layout {
+
+    @include for-extra-wide-layout {
+        .hero-wrapper {
+            padding: 30px 100px;
+
+            &::before {
+
+                // top: -46px;
+            }
+        }
+
+        .hero-image {
+            img {
+                width: 330px;
+            }
+        }
+    }
+
+    @include for-wide-layout {
+        .hero-wrapper {
+            padding: 30px 100px;
+
+            &:before {
+                width: 100%;
+                height: 100%;
+                // background-size: contain;
+
+            }
+        }
+
+    }
+
+    @include for-medium-layout {
+         
+    }
+
+    @include for-narrow-layout {
+    
+    }
+
+}

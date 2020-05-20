@@ -1,0 +1,41 @@
+.slider-cmp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+
+        font-size: rem(40px);
+    }
+}
+
+.slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        width: 200px;
+    }
+}
+
+
+.slider-agile-vue {
+position: relative;
+
+    &:before {
+        content: '';
+        position: absolute;
+        width: 100vw;
+        height: 240px;
+        z-index: -1;
+        background-image: url('../images/Subtle-Light-Tile-Pattern.jpg');
+        background-position-y: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 30%;
+    }
+
+    max-width: 100vw
+}

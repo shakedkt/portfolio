@@ -1,0 +1,52 @@
+.about-me-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 45px 150px;
+    text-align: left;
+    margin-bottom: 10px;
+
+    >div {
+        // border: 1px solid $clr3;
+        background-color: $clr4;
+        border-radius: 30px;
+        padding: 10px;
+        // box-shadow: 1px 2px #888888;
+
+        -webkit-box-shadow: 3px 3px 3px 3px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+        -moz-box-shadow:    3px 3px 3px 3px #ccc;  /* Firefox 3.5 - 3.6 */
+        box-shadow:         3px 3px 3px 3px #ccc;
+    }
+
+    h2 {
+        font-size: rem(25px);
+        color: $clr2;
+    }
+
+    h3 {
+        font-size: rem(18px);
+        color: $clr3;
+    }
+
+    .about-me {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .about-me-paragraph {
+            width: 300px;
+        }
+    }
+
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        row-gap: 30px;
+        align-items: center;
+        padding-top: 15px;
+    }
+}

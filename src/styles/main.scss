@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: 'Poppins';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Livvic', sans-serif;
+
+    link {
+        color: rgb(206, 206, 206);
+        text-decoration: none;
+    }
+}
+
+.open{
+    transform: translateY(300px);
+}
+
+#app{
+    font-family: 'Poppins';
+}
+
+.about-section{
+     background-color: #F8F8F8;
+}
+
+// SETUP
+@import './setup/functions';
+@import './setup/mixins';
+@import './setup/variabels';
+
+// BASICS
+@import './base';
+
+
+// COMPONENTS
+@import './cmps/navbar/navbar.cmp';
+@import './cmps/hero/hero.cmp';
+@import './cmps/slider/slider.scss';
+@import './cmps/about-me/aboutMe.cmp';
+
+// LAYOUTS 
+@import './cmps/navbar/navbarLayout';
+@import './cmps/hero/heroLayout';
+@import './cmps/about-me/aboutMeLayout';
