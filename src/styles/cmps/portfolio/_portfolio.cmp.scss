@@ -23,16 +23,17 @@
     .tags {
         display: flex;
         flex-wrap: wrap;
-        // overflow: auto;
         justify-content: space-around;
+        opacity: 100%;
+
 
         span {
-            opacity: 80%;
+            opacity: 100%;
             font-size: 15px;
             background-color: $clr1;
             padding: 4px;
             margin-bottom: 10px;
-        }
+        }  
     }
 
     p {
