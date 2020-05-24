@@ -27,12 +27,10 @@
         justify-content: space-around;
 
         span {
+            opacity: 80%;
             font-size: 15px;
             background-color: $clr1;
-            
-            opacity: 100%;
-
-            padding: 5px;
+            padding: 4px;
             margin-bottom: 10px;
         }
     }
