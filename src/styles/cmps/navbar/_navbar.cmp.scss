@@ -36,6 +36,9 @@
         background-color: whitesmoke;
         color: $clr2;
     }
+
+    button:focus {outline:0;}
+
 }
 
 .logo {

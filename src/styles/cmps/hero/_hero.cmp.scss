@@ -3,7 +3,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 80px 150px;
+    padding: 80px 150px 120px 160px;
     transition: 300ms ease-in-out;
     position: relative;
 
@@ -49,13 +49,3 @@
     }
 }
 
-.before-enter{
-opacity: 0.2;
-transform: translateY(100px);
-transition: all 1s ease-in-out;
-}
-
-.enter{
-    opacity: 1;
-    transform: translateY(0px);
-}

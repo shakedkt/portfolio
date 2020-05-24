@@ -27,7 +27,10 @@
 <router-link class="link" :to="'#contact'" @click.native="scrollFix('#scroll')" exact>
   Contact
 </router-link>
-      <button class="hire-me">Hire me</button>
+
+<router-link class="link" :to="'#contact'" @click.native="scrollFix('#scroll')" exact>
+      <button contact class="hire-me">Hire me</button>
+</router-link>
     </div>
   </div>
 </template>

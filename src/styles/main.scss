@@ -25,20 +25,6 @@ html {
     scroll-behavior: smooth;
 }
 
-.porject-section-wrapper {
-    .tags {
-        span {
-            opacity: 0.8;
-            font-size: 15px;
-            background-color: #fafafa;
-            padding: 4px;
-            margin-bottom: 10px;
-        }  
-    }
-}
-
-
-
 // SETUP
 @import './setup/functions';
 @import './setup/mixins';

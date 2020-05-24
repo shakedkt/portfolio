@@ -35,9 +35,6 @@
       <div class="slide">
         <img src="../images/nodejsLogo.png" />
       </div>
-
-
-
      
     </agile>
   </section>

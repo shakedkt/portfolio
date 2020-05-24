@@ -1,9 +1,9 @@
 <template>
   <section class="home">
-    <Hero />
+    <Hero  />
     <About />
     <Portfolio />
-    <Contact />
+    <Contact v-scrollAnimation />
     <Footer />
   </section>
 </template>

@@ -35,5 +35,16 @@
 export default {};
 </script>
 
-<style>
+<style lang="scss" scoped>
+
+ .before-enter{
+        opacity: 0.2;
+        transform: translateY(120px);
+        transition: all 1s ease-in-out;
+        }
+        
+        .enter{
+            opacity: 1;
+            transform: translateY(0px);
+        }
 </style>

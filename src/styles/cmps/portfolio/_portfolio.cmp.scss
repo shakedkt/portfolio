@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 30px 150px;
+    padding: 60px 150px 90px 150px;
     transition: 300ms ease-in-out;
     background-color: #F8F8F8;
     cursor: pointer;
@@ -77,9 +77,6 @@
     height: 300px;
     transition: .5s ease;
     backface-visibility: hidden;
-    // min-width: 400px;
-    // min-height: 120px;
-    // max-height: 300px;
     border-radius: 30px;
 
 }
@@ -102,13 +99,3 @@
     }
 }
 
-.before-enter{
-    opacity: 0.2;
-    transform: translateY(100px);
-    transition: all 1s ease-in-out;
-    }
-    
-    .enter{
-        opacity: 1;
-        transform: translateY(0px);
-    }

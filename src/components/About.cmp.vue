@@ -1,6 +1,6 @@
 <template>
-  <section id="about" class="about-section" v-scrollAnimation>
-    <AboutMe />
+  <section id="about" class="about-section">
+    <AboutMe v-scrollAnimation />
     <Skills />
   </section>
 </template>
@@ -17,5 +17,3 @@ export default {
   }
 };
 </script>
-<style>
-</style>

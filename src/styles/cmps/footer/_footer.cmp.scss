@@ -14,20 +14,21 @@
     align-items: center;
     flex-direction: row;
     margin: 20px 0px;
+    padding-top: 20px;
 
     div {
-        width: 40px;
+        width: 50px;
     }
 
     .linkedin {
         margin-right: 20px;
     }
 
-    .linkedin:hover{
+    .linkedin:hover {
         opacity: 60%;
     }
 
-    .github:hover{
+    .github:hover {
         opacity: 60%;
     }
 
@@ -36,5 +37,8 @@
         border-radius: 5px;
     }
 
-    
+    .copyright {
+        padding-top: 20px;
+    }
+
 }
