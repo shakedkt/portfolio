@@ -1,42 +1,108 @@
 .main-layout {
 
     @include for-extra-wide-layout {
-        .hero-wrapper {
+        .about-me-wrapper {
             padding: 30px 100px;
-
-            &::before {
-
-                // top: -46px;
-            }
         }
+    }
 
-        .hero-image {
-            img {
-                width: 330px;
+    @media only screen and (max-width: 1200px) {
+        .about-me-wrapper {
+
+            div {
+                width: 400px;
+
+                .about-me-paragraph {
+
+                    h3 {
+                        padding-right: 21px;
+                    }
+                }
             }
         }
     }
 
-    @include for-wide-layout {
-        .hero-wrapper {
-            padding: 30px 100px;
 
-            &:before {
+    @media only screen and (max-width: 1010px) {
+        .about-me-wrapper {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+
+            div {
+                margin-bottom: 30px;
+                width: 70%;
+            }
+
+            .grid-container {
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr 1fr 1fr;
+                row-gap: 0px;
+                align-items: center;
+                justify-items: center;
+                padding-top: 15px;
+                text-align: center;
                 width: 100%;
-                height: 100%;
-                // background-size: contain;
 
+                img {
+                    display: flex;
+                    justify-content: center;
+                    padding-bottom: 10px;
+                }
+
+                h3 {
+                    padding-bottom: 30px;
+                }
+
+                :last-child {
+                    padding-bottom: 0px;
+                }
+            }
+
+            .about-me-paragraph {
+                width: 100%;
+                text-align: center;
             }
         }
-
     }
+
+
+    @include for-wide-layout {}
+
 
     @include for-medium-layout {
-         
+
+        .about-me-wrapper {
+            padding: 30px 30px;
+
+            div {
+                width: 100%;
+                .about-me-paragraph {
+                    h3 {
+                        padding-right: 0px;
+                    }
+                }
+            }
+
+            .grid-container {
+                grid-template-rows: 1fr 2fr;
+            }
+        }
+
+
     }
 
     @include for-narrow-layout {
-    
+
+        .about-me-wrapper {
+            h3 {
+                font-size: 1.5rem;
+            }
+        }
     }
+
+
 
 }

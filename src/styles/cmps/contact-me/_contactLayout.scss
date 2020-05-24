@@ -1,0 +1,43 @@
+.main-layout {
+
+    @include for-extra-wide-layout {}
+
+    @include for-wide-layout {}
+
+    @include for-medium-layout {
+
+        .contact-wrapper {
+            padding: 30px 15px;
+            margin-right: 0px;
+
+            form {
+                width: 100%;
+            }
+
+            div {
+                width: 100%;
+            }
+
+            .name-and-email {
+                width: 100%;
+                display: initial;
+            }
+        }
+
+        .name {
+            margin-right: 0px;
+        }
+
+        input {
+            margin-right: 0px;
+            padding: 15px 0px;
+        }
+
+        textarea {
+            padding: 15px 40px 50px 0px;
+        }
+    }
+
+    @include for-narrow-layout {}
+
+}

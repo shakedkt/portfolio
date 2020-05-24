@@ -1,0 +1,26 @@
+.main-layout {
+
+    @include for-extra-wide-layout {}
+
+    @include for-wide-layout {}
+
+    @include for-medium-layout {
+        .thank-you-wrapper {
+            padding-top: 150px;
+        }
+    }
+
+    @include for-narrow-layout {
+        .thank-you-wrapper {
+
+            h1 {
+                width: 300px;
+            }
+
+            h2 {
+                width: 300px;
+            }
+        }
+    }
+
+}

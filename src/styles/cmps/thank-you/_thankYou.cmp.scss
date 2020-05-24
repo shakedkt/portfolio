@@ -1,0 +1,20 @@
+.thank-you-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 150px;
+    position: relative;
+    text-align: center;
+
+    h1{
+        font-size: 40px;
+        color: $clr2;
+        padding-bottom: 40px;
+    }
+
+    h2{
+        font-size: 30px;
+        color: $clr3;
+    }
+}

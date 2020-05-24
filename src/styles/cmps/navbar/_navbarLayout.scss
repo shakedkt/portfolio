@@ -55,15 +55,23 @@
             }
 
             &.active {
-                height: 285px;
+                height: 310px;
+                            // padding-bottom: 310px;
+
             }
             
             :last-child {
                 display: none;
+                padding-bottom: 30px;
             }
         }
     }
 
-
+    @media (max-width: 320px) {
+      .nav{
+        padding: 20px 38px 20px 10px
+      }
+    }
 
 }
+

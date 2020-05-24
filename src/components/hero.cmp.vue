@@ -1,5 +1,5 @@
 <template>
-  <section class="hero-wrapper" v-scrollAnimation>
+  <section id="hero" class="hero-wrapper" v-scrollAnimation>
     <div class="hero-details">
       <h3>Hi, i am</h3>
       <h1>Shaked Katsir</h1>

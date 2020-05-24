@@ -1,6 +1,6 @@
 <template v-slot:default>
   <section class="slider-cmp">
-    <h1> &lt; SKILLS &gt;  </h1>
+    <h1> &lt; TECHNOLOGIES I USE &gt;  </h1>
 
     <agile class="slider-agile-vue" :navButtons="false" :dots="true" :speed="1000" :autoplay="true" :autoplay-speed="2000" :infinite="true" :mobileFirst="true">
   

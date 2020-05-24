@@ -16,12 +16,13 @@ body {
     transform: translateY(300px);
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 #app{
     font-family: 'Poppins';
-}
-
-.about-section{
-     background-color: #F8F8F8;
+    scroll-behavior: smooth;
 }
 
 // SETUP
@@ -38,8 +39,16 @@ body {
 @import './cmps/hero/hero.cmp';
 @import './cmps/slider/slider.scss';
 @import './cmps/about-me/aboutMe.cmp';
+@import './cmps/portfolio/portfolio.cmp';
+@import './cmps/contact-me/contact.cmp';
+@import './cmps/thank-you/thankYou.cmp';
+@import './cmps/footer/footer.cmp';
 
 // LAYOUTS 
 @import './cmps/navbar/navbarLayout';
 @import './cmps/hero/heroLayout';
 @import './cmps/about-me/aboutMeLayout';
+@import './cmps/portfolio/portfolioLayout';
+@import './cmps/contact-me/contactLayout';
+@import './cmps/thank-you/thankYouLatout';
+@import './cmps/footer/footerLayout.cmp';

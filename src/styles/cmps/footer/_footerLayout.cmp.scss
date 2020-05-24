@@ -1,0 +1,16 @@
+.main-layout {
+
+    @include for-extra-wide-layout {}
+
+    @include for-wide-layout {}
+
+    @include for-medium-layout {
+
+        .footer-wrapper {
+            padding: 80px 10px
+        }
+    }
+
+    @include for-narrow-layout {}
+
+}

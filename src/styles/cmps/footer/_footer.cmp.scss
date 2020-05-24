@@ -1,0 +1,40 @@
+.footer-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 150px;
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 20px 0px;
+
+    div {
+        width: 40px;
+    }
+
+    .linkedin {
+        margin-right: 20px;
+    }
+
+    .linkedin:hover{
+        opacity: 60%;
+    }
+
+    .github:hover{
+        opacity: 60%;
+    }
+
+    img {
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    
+}

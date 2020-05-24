@@ -1,0 +1,76 @@
+.contact-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 150px;
+    transition: 300ms ease-in-out;
+    text-align: center;
+
+    h4 {
+        font-size: 16px;
+        color: $clr3;
+    }
+
+    h2 {
+        font-size: 30px;
+        color: $clr2;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 730px;
+    }
+
+    .name-and-email {
+        width: 100%;
+        display: inherit;
+    }
+
+    input {
+        width: 100%;
+        padding: 15px 40px;
+        margin: 5px 0px 10px 0px;
+        border: 1px solid $clr1;
+        background-color: $clr1;
+        outline: 0;
+        font-size: 16px;
+    }
+
+    textarea {
+        width: 100%;
+        padding: 15px 40px 50px 40px;
+        margin: 5px 0px 10px 0px;
+        border: 1px solid $clr1;
+        background-color: $clr1;
+        // padding-bottom: 20px;
+        outline: 0;
+        resize: none;
+        font-size: 16px;
+    }
+
+    .name {
+        margin-right: 15px;
+    }
+
+    button {
+        min-width: 170px;
+        padding: 15px 30px;
+        background-color: $clr2;
+        border-radius: 25px;
+        font-weight: bold;
+        color: whitesmoke;
+        margin-left: 20px;
+        margin-top: 10px;
+        font-size: rem(20px);
+        transition: background-color 0.4s;
+    }
+
+    button:hover {
+        background-color: whitesmoke;
+        color: $clr2;
+    }
+}

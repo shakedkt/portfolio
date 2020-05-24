@@ -1,6 +1,5 @@
 <template>
   <div class="nav">
-      
     <div class="logo">
       SK
       <span>.</span>
@@ -11,10 +10,23 @@
     </div>
 
     <div class="nav-bar" ref="nav">
-      <a to="/">Home</a>
-      <a to="/">About</a>
-      <a to="/">Projects</a>
-      <a to="/">Contact</a>
+
+
+<router-link class="link" :to="'#hero'" @click.native="scrollFix('#scroll')" exact>
+  Home
+</router-link>
+
+<router-link class="link" :to="'#about'" @click.native="scrollFix('#scroll')" exact>
+  About
+</router-link>
+
+<router-link class="link" :to="'#portfolio'" @click.native="scrollFix('#scroll')" exact>
+  Projects
+</router-link>
+
+<router-link class="link" :to="'#contact'" @click.native="scrollFix('#scroll')" exact>
+  Contact
+</router-link>
       <button class="hire-me">Hire me</button>
     </div>
   </div>
@@ -29,11 +41,17 @@ export default {
     };
   },
   methods: {
-    toggleHamburger() {        
+    toggleHamburger() {
       const nav = this.$refs.nav.classList;
       nav.contains("active") ? nav.remove("active") : nav.add("active");
+    },
+    scrollFix: function(hashbang) {
+      location.hash = hashbang;
     }
-  }
+  },
+  mounted: function() {
+    setTimeout(() => this.scrollFix(this.$route.hash), 1);
+  },
 };
 </script>
 
