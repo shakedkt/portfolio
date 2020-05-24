@@ -2,24 +2,10 @@
   <section class="porject-section-wrapper" id="portfolio"> 
     <h2>&lt; MY RECENT PROJECTS &gt;</h2>
 
-    <div class="projects-container">
-  <a href="https://shakedkt.github.io/appsus/#/" target="_blank">
-      <div class="image-container">
-        <img src="../images/appsus.png" class="image" />
-        <div class="middle">
-          <h4>APPSUS</h4>
-          <p>Single page application with a set of mini apps: misterEmail, missKeep, missBooks</p>
 
-          <div class="tags">
-            <span>HTML5</span>
-            <span>CSS3</span>
-            <span>VUE</span>
-          </div>
-        </div>
-      </div>
-      </a>
-  
-      <a href="https://shakedinsta.herokuapp.com/#/" target="_blank">
+    <div class="projects-container">
+ 
+  <a href="https://shakedinsta.herokuapp.com/#/" target="_blank">
         <div class="image-container">
           <img src="../images/instagram.jpg" class="image" />
           <div class="middle">
@@ -37,6 +23,39 @@
             </div>
           </div>
         </div>
+      </a>
+ 
+  <a href="https://shakedkt.github.io/appsus/#/" target="_blank">
+      <div class="image-container">
+        <img src="../images/appsus.png" class="image" />
+        <div class="middle">
+          <h4>APPSUS</h4>
+          <p>Single page application with a set of mini apps: misterEmail, missKeep, missBooks</p>
+
+          <div class="tags">
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>VUE</span>
+          </div>
+        </div>
+      </div>
+      </a>
+  
+     
+<a href="https://shakedkt.github.io/proj2-meme-generator/#social" target="_blank">
+      <div class="image-container">
+        <img src="../images/memegen.png" class="image" />
+        <div class="middle">
+          <h4>MEME GENERATOR</h4>
+          <p>Meme generator site using vanila JavaScript, HTML, CSS</p>
+
+          <div class="tags">
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>ES6</span>
+          </div>
+        </div>
+      </div>
       </a>
 
   <a href="https://shakedkt.github.io/Mister-BITCoin-react-new/" target="_blank">
