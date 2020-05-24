@@ -1,5 +1,5 @@
 <template>
-  <section class="porject-section-wrapper" id="portfolio"> 
+  <section class="porject-section-wrapper" id="portfolio" v-scrollAnimation> 
     <h2>&lt; MY RECENT PROJECTS &gt;</h2>
 
 
