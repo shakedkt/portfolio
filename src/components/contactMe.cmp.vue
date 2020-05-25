@@ -1,11 +1,11 @@
 <template>
   <section class="contact-wrapper" id="contact">
-    <div>
+    <div v-scrollAnimation>
       <h4>Contact Me</h4>
       <h2>Get in Touch</h2>
     </div>
 
-    <div>
+    <div v-scrollAnimation>
       <form target="_blank" action="https://formsubmit.co/shakedkat@gmail.com" method="POST">
         <div class="name-and-email">
           <input class="name" v-model="mailData.name" type="text" placeholder="Name" />
@@ -37,5 +37,15 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss" scoped>
+.before-enter {
+  opacity: 0.05;
+  transition: all 1s ease-in-out;
+  transform: scale(0.7);
+}
+.enter {
+  opacity: 1;
+  transform: scale(1);
+}
+
 </style>

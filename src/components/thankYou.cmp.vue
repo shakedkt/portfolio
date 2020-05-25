@@ -11,6 +11,14 @@ export default {
 }
 </script>
 
-<style>
-
+<style lang="scss" scoped>
+.before-enter {
+  opacity: 0.05;
+  transition: all 1s ease-in-out;
+  transform: scale(0.7);
+}
+.enter {
+  opacity: 1;
+  transform: scale(1);
+}
 </style>

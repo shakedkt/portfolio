@@ -24,13 +24,11 @@ export default {};
 <style lang="scss" scoped>
 .before-enter {
   opacity: 0.05;
-  // transform: translateX(100px);
   transition: all 1s ease-in-out;
   transform: scale(0.7);
 }
 .enter {
   opacity: 1;
-  // transform: translateX(0px);
   transform: scale(1);
 }
 </style>

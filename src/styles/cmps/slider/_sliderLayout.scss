@@ -1,0 +1,28 @@
+.main-layout {
+
+    @include for-narrow-layout {
+        .slider-cmp {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        
+            h1 {
+        
+                font-size: 1.9rem;
+            }
+        }
+    }
+
+    @include for-medium-layout {
+        .slider-cmp {
+            h1 {
+        
+                font-size: rem(30px);
+            }
+        }
+    }
+
+}
+
+

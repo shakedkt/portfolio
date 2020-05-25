@@ -21,7 +21,7 @@
       <div class="about-me-paragraph">
         <h3>
           I'm a 22 year old programmer from Tel Aviv.
-          I'm passinonte about learning new stuff all the time.
+          I'm passinonte about learning new stuff all the time. <br>
           I speclize in creating beautiful pixel perfect single page applications.
         </h3>
         <br />

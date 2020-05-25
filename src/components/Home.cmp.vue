@@ -3,7 +3,7 @@
     <Hero  />
     <About />
     <Portfolio />
-    <Contact v-scrollAnimation />
+    <Contact />
     <Footer />
   </section>
 </template>
