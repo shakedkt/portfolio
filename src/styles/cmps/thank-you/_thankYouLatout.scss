@@ -1,5 +1,11 @@
 .main-layout {
 
+    @media (min-width: 1300px) {
+        .thank-you-wrapper {
+            max-width: 1400px;
+        }
+    }
+
     @include for-extra-wide-layout {}
 
     @include for-wide-layout {}

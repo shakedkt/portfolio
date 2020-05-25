@@ -1,5 +1,18 @@
 .main-layout {
 
+
+    @media (min-width: 1300px) {
+        .hero-wrapper {
+            padding: 30px 100px;
+            max-width: 1400px;
+
+            &:before {
+                width: 100%;
+                height: 100%;
+            }
+        }
+      }
+
     @include for-extra-wide-layout {
         .hero-wrapper {
             // padding: 30px 100px;

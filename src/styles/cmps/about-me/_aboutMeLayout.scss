@@ -1,5 +1,30 @@
 .main-layout {
 
+    @media (min-width: 1300px) {
+        .about-me-wrapper {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            padding: 80px 150px 60px 150px;
+            text-align: left;
+            max-width: 1400px;
+            margin-bottom: 40px;        
+
+
+            div {
+                width: 400px;
+
+                .about-me-paragraph {
+
+                    h3 {
+                        padding-right: 21px;
+                    }
+                }
+            }
+        }
+      }
+
+
     @include for-extra-wide-layout {
         .about-me-wrapper {
             padding: 30px 100px;
