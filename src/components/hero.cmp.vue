@@ -10,10 +10,9 @@
       </h3>
     </div>
 
-   
-      <img class="hero-image" v-scrollAnimation src="../images/rsz_hero-img.jpg" />
-
-
+<div class="hero-image">
+      <img src="../images/try.jpeg" v-scrollAnimation />
+</div>
   </section>
 </template>
 
