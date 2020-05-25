@@ -5,7 +5,7 @@
       <h1>Shaked Katsir</h1>
       <h4>Fullstack / Front End Developer</h4>
       <h3 class="details-paragraph">
-        Passionate about solving challenges, with experience in building single
+        Passionate about solving problems and overcome challenges, with experience in building single
         page applications using advanced web technologies.
       </h3>
     </div>
