@@ -12,23 +12,23 @@
     <div class="nav-bar" ref="nav">
 
 
-<router-link class="link" :to="'#hero'" @click.native="scrollFix('#scroll')" exact>
+<router-link class="link" :to="'/portfolio/#hero'" @click.native="scrollFix('#scroll')" exact>
   Home
 </router-link>
 
-<router-link class="link" :to="'#about'" @click.native="scrollFix('#scroll')" exact>
+<router-link class="link" :to="'/portfolio/#about'" @click.native="scrollFix('#scroll')" exact>
   About
 </router-link>
 
-<router-link class="link" :to="'#portfolio'" @click.native="scrollFix('#scroll')" exact>
+<router-link class="link" :to="'/portfolio/#portfolio'" @click.native="scrollFix('#scroll')" exact>
   Projects
 </router-link>
 
-<router-link class="link" :to="'#contact'" @click.native="scrollFix('#scroll')" exact>
+<router-link class="link" :to="'/portfolio/#contact'" @click.native="scrollFix('#scroll')" exact>
   Contact
 </router-link>
 
-<router-link class="link" :to="'#contact'" @click.native="scrollFix('#scroll')" exact>
+<router-link class="link" :to="'/portfolio/#contact'" @click.native="scrollFix('#scroll')" exact>
       <button contact class="hire-me">Hire me</button>
 </router-link>
     </div>

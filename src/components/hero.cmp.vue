@@ -1,7 +1,7 @@
 <template>
   <section id="hero" class="hero-wrapper">
     <div class="hero-details" v-scrollAnimation>
-      <h3>Hi, i am</h3>
+      <h3>Hi, I AM</h3>
       <h1>Shaked Katsir</h1>
       <h4>Fullstack / Front End Developer</h4>
       <h3 class="details-paragraph">
@@ -10,9 +10,10 @@
       </h3>
     </div>
 
-    <div class="hero-image" v-scrollAnimation>
-      <img src="../images/hero_Image.jpg" />
-    </div>
+   
+      <img class="hero-image" v-scrollAnimation src="../images/rsz_hero-img.jpg" />
+
+
   </section>
 </template>
 
