@@ -24,6 +24,8 @@
             position: fixed;
             width: 100%;
             z-index: 1;
+            box-sizing: border-box;
+            padding: 20px 10px 20px 10px;
 
             a {
                 padding: 25px 0px 25px 10px;
