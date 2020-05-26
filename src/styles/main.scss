@@ -12,18 +12,26 @@ body {
     }
 }
 
-.open{
+.open {
     transform: translateY(300px);
 }
 
 html {
     scroll-behavior: smooth;
-  }
+}
 
-#app{
+#app {
     font-family: 'Poppins';
+    // font-family: 'eurostile';
     scroll-behavior: smooth;
 }
+
+@font-face {
+    font-family: eurostile;
+    src: url('./../fonts/EurostileBold.ttf');
+}
+
+
 
 // SETUP
 @import './setup/functions';

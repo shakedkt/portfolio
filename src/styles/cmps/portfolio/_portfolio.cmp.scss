@@ -38,15 +38,33 @@
 
     p {
         margin-bottom: 40px;
-        min-width: 300px;
+        min-width: 315px;
         font-weight: bold;
+        font-size: 20px;
+    }
+
+    button {
+        min-width: 200px;
+        padding: 15px 30px;
+        background-color: $clr2;
+        border-radius: 25px;
+        font-weight: bold;
+        color: whitesmoke;
+        margin-top: 10px;
+        font-size: rem(20px);
+        transition: background-color 0.4s;
+    }
+
+    button:hover {
+        background-color: whitesmoke;
+        color: $clr2;
     }
 }
 
 .projects-container {
     display: grid;
-    grid-template-rows: auto auto;
-    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto;
     column-gap: 15px;
     row-gap: 15px;
     justify-items: center;
@@ -74,7 +92,7 @@
     object-fit: cover;
     opacity: 1;
     width: 100%;
-    height: 300px;
+    height: 400px;
     transition: .5s ease;
     backface-visibility: hidden;
     border-radius: 30px;
@@ -98,4 +116,3 @@
         padding: 8px;
     }
 }
-

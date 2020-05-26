@@ -65,6 +65,30 @@
                 font-size: rem(30px);
                 margin-bottom: 5px;
             }
+
+            p {
+                line-height: 1.2;
+                font-size: 16px;
+                margin-bottom: 0px;
+            }
+
+            .tags {
+
+                span {
+                    margin-top: 10px;
+                    font-size: 12px;
+                    background-color: #fafafa;
+                    opacity: 100%;
+                    padding: 5px;
+                    line-height: 1;
+                }
+            }
+
+            h4 {
+                font-size: 25px;
+                margin-bottom: 0px;
+                padding-bottom: 6px;
+            }
         }
     }
 
