@@ -14,7 +14,7 @@
         <input v-model=" mailData.subject" type="text" name="subject" placeholder="Subject" />
         <textarea v-model="mailData.text" name="message" placeholder="message"></textarea>
         <input type="hidden" name="_captcha" value="false" />
-        <input type="hidden" name="_next" value="http://localhost:8080/portfolio/contact" />
+        <input type="hidden" name="_next" value="http://www.shakedkat.com/portfolio/contact" />
 
         <button @click="submitTheForm" type="submit">Send</button>
       </form>
