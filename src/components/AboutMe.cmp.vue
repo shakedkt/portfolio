@@ -1,17 +1,17 @@
 <template>
   <section class="about-me-wrapper">
     <div class="offer">
-      <h2>What I Offer</h2>
+      <h2>What I offer</h2>
 
       <div class="grid-container">
         <img src="../images/frontendIcon.svg" />
-        <h3>Efficient, fast, clean and affective code</h3>
+        <h3>Efficient, fast, clean and effective code</h3>
 
         <img src="../images/designer.svg" />
         <h3>Simple, clean, modern and intuitive design</h3>
 
         <img src="../images/mentor.svg" />
-        <h3>Use of best of breed technology framework</h3>
+        <h3>Using best of breed technology frameworks</h3>
       </div>
     </div>
 
@@ -20,12 +20,12 @@
 
       <div class="about-me-paragraph">
         <h3>
-          I'm a 22 year old programmer from Tel Aviv.
-          I'm passinonte about learning new stuff all the time. <br>
-          I speclize in creating beautiful pixel perfect single page applications.
+          A programmer from Tel Aviv.
+          Passionate about learning and building new things, <br>
+          I specialize in creating beautiful pixel-perfect single page applications and getting things done.
         </h3>
         <br />
-        <h3>Graduate of the Coding Academy - An intensive coding bootcamp (640 hours)that qualifies Web developers.</h3>
+        <h3>Graduate of the Coding Academy - an intensive (640 hours) and selective coding bootcamp that qualifies Web developers.</h3>
       </div>
     </div>
   </section>

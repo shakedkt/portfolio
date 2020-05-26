@@ -1,12 +1,12 @@
 <template>
   <section id="hero" class="hero-wrapper">
     <div class="hero-details" v-scrollAnimation>
-      <h3>Hi, I AM</h3>
+      <h3>Hey, I am</h3>
       <h1>Shaked Katsir</h1>
       <h4>Fullstack / Front End Developer</h4>
       <h3 class="details-paragraph">
-        Passionate about solving problems and overcome challenges, with experience in building single
-        page applications using advanced web technologies.
+        Passionate about solving problems and overcoming challenges, with experience in building single
+        page applications using the latest web technologies.
       </h3>
     </div>
 

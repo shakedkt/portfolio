@@ -4,11 +4,11 @@
 
     <agile class="slider-agile-vue" :navButtons="false" :dots="true" :speed="1000" :autoplay="true" :autoplay-speed="2000" :infinite="true" :mobileFirst="true">
   
-   <div class="slide">
+      <div class="slide">
         <img src="../images/html5.png" />
       </div>
 
- <div class="slide">
+      <div class="slide">
         <img src="../images/cssLogo.png" />
       </div>
 
@@ -24,7 +24,7 @@
         <img src="../images/vueLogo.png" />
       </div>
 
-<div class="slide">
+      <div class="slide">
         <img src="../images/reactLogo.png" />
       </div>
 
