@@ -7,7 +7,7 @@
         <img src="../images/instagram.jpg" class="image" />
         <div class="middle">
           <h4>Instagram clone</h4>
-          <p>My finals project, End to End Instagram clone from scratch using the latest technologies</p>
+          <p>My finals project. End to end Instagram clone <b>from scratch</b> (including all Backend and DB work)</p>
 
           <div id="instagram" class="tags">
             <!-- <span>HTML5</span> -->
@@ -29,7 +29,7 @@
         <img src="../images/appsus.png" class="image" />
         <div class="middle">
           <h4>APPSUS</h4>
-          <p>Single page application with a set of mini apps: misterEmail, missKeep, missBooks</p>
+          <p>Single page application with a set of mini apps: in-app email, notes & book e-shop</p>
 
           <div class="tags">
             <span>HTML5</span>
@@ -47,7 +47,7 @@
         <img src="../images/memegen.png" class="image" />
         <div class="middle">
           <h4>MEME GENERATOR</h4>
-          <p>Meme generator site using vanila JavaScript, HTML, CSS</p>
+          <p>Meme generator site using vanilla JavaScript, HTML & CSS</p>
 
           <div class="tags">
             <span>HTML5</span>
@@ -69,7 +69,7 @@
         <img src="../images/misterbitcoin.png" class="image" />
         <div class="middle">
           <h4>MISTER BITCOIN</h4>
-          <p>React project, digital bitcoin wallet, transfer bitcoin to contacts</p>
+          <p>React project, imitating a digital bitcoin wallet, including transfers, contacts, price graphs and more</p>
 
           <div class="tags">
             <span>HTML5</span>
@@ -94,7 +94,7 @@
         <img src="../images/myteam.jpg" class="image" />
         <div class="middle">
           <h4>MYTEAM</h4>
-          <p>small layout project using react</p>
+          <p>Small mockup using React</p>
 
           <div class="tags">
             <span>HTML5</span>
@@ -114,7 +114,7 @@
         <img src="../images/minesweeper.png" class="image" />
         <div class="middle">
           <h4>MINE SWEEPER</h4>
-          <p>Mine sweeper with few extra features including extra lives and hints, using vanila JavaScript</p>
+          <p>Mine sweeper using only vanilla JS, with a few extra features including extra lives and hints</p>
 
           <div class="tags">
             <span>HTML5</span>
