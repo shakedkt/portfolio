@@ -1,7 +1,7 @@
 <template>
   <section id="hero" class="hero-wrapper">
     <div class="hero-details" v-scrollAnimation>
-      <h3>Hi, I am</h3>
+      <h3>Hey, I am</h3>
       <h1>Shaked Katsir</h1>
       <h4>Fullstack / Front End Developer</h4>
       <h3 class="details-paragraph">

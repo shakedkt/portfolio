@@ -21,8 +21,8 @@
       <div class="about-me-paragraph">
         <h3>
           A programmer from Tel Aviv.
-          Passionate about learning all the time and building new things, <br>
-          I specialize in creating beautiful pixel-perfect single page applications.
+          Passionate about learning and building new things, <br>
+          I specialize in creating beautiful pixel-perfect single page applications and getting things done.
         </h3>
         <br />
         <h3>Graduate of the Coding Academy - an intensive (640 hours) and selective coding bootcamp that qualifies Web developers.</h3>

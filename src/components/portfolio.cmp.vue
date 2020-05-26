@@ -7,8 +7,7 @@
         <img src="../images/instagram.jpg" class="image" />
         <div class="middle">
           <h4>Instagram clone</h4>
-          <p>My finals project. End to end Instagram clone <b>from scratch</b> (including all Backend and DB work)</p>
-
+          <p>My finals project. A fully working end-to-end Instagram clone</p>
           <div id="instagram" class="tags">
             <!-- <span>HTML5</span> -->
             <span>SASS</span>
