@@ -2,6 +2,8 @@
 
     @media only screen and (min-width: 1450px) {
         .hero-wrapper {
+            width: 100vw;
+
             .hero-image {
                 width: 500px;
             }
@@ -11,10 +13,11 @@
                 object-fit: cover;
                 border-radius: 100%;
             }
-                &:before {
-                    width: 99vw;
-                    // height: 100vh;
-                }
+
+            &:before {
+                width: 100vw;
+                // height: 100vh;
+            }
         }
     }
 
