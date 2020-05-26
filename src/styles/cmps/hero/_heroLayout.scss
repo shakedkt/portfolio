@@ -3,26 +3,28 @@
     @media only screen and (min-width: 1450px) {
         .hero-wrapper {
             .hero-image {
-                width: 100vw;
+                width: 500px;
             }
-            
-            img{
+
+            img {
                 width: 100%;
                 object-fit: cover;
                 border-radius: 100%;
             }
+                &:before {
+                    width: 99vw;
+                    // height: 100vh;
+                }
         }
-
     }
-
 
     @media only screen and (max-width: 1350px) {
         .hero-wrapper {
             .hero-image {
                 width: 650px;
             }
-            
-            img{
+
+            img {
                 width: 100%;
                 object-fit: cover;
                 border-radius: 100%;
@@ -65,8 +67,8 @@
             .hero-image {
                 width: 450px;
             }
-            
-            img{
+
+            img {
                 width: 100%;
                 object-fit: cover;
                 border-radius: 100%;
@@ -116,7 +118,7 @@
             text-align: center;
             padding-top: 130px;
             padding: 130px 0px 30px 0px;
-            
+
             &:before {
                 top: 102px;
                 background-position-y: bottom;

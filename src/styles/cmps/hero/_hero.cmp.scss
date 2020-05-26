@@ -7,7 +7,6 @@
     transition: 300ms ease-in-out;
     position: relative;
 
-
     &:before {
         content: '';
         position: absolute;
@@ -21,14 +20,13 @@
         transform: rotate(180deg);
     }
 
-
     .hero-image {
         width: 450px;
         // border-radius: 100%;
         object-fit: cover;
     }
-    
-    img{
+
+    img {
         width: 100%;
         object-fit: cover;
         border-radius: 100%;
@@ -62,4 +60,3 @@
         max-width: 900px;
     }
 }
-
