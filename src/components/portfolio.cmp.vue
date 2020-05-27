@@ -79,7 +79,7 @@
           </div>
 
           <a
-            href="https://shakedkt.github.io/Mister-BITCoin-react-new/"
+            href="https://shakedkt.github.io/mister-bitcoin-new/"
             target="_blank"
             class="link-btn"
           >
