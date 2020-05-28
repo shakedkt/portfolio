@@ -11,7 +11,7 @@
           <input class="name" v-model="mailData.name" type="text" placeholder="Name" />
           <input v-model="mailData.email" type="email" name="email" placeholder="Email" />
         </div>
-        <input v-model=" mailData.subject" type="text" name="subject" placeholder="Subject" />
+        <input class="subject" v-model="mailData.subject" type="text" name="subject" placeholder="Subject" />
         <textarea v-model="mailData.text" name="message" placeholder="Message"></textarea>
         <input type="hidden" name="_captcha" value="false" />
         <input type="hidden" name="_next" value="http://www.shakedkat.com/contact" />
