@@ -1,6 +1,6 @@
 <template>
   <div class="nav">
-    <div class="logo">
+    <div :to="'/'" class="logo">
       SK
       <span>.</span>
     </div>
