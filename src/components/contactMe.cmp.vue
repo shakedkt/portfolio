@@ -8,7 +8,7 @@
     <div v-scrollAnimation>
       <form target="_blank" action="https://formsubmit.co/shakedkat@gmail.com" method="POST">
         <div class="name-and-email">
-          <input name="name" class="name" v-model="mailData.name" type="text" placeholder="Name" />
+          <input name="fullName" class="name" v-model="mailData.name" type="text" placeholder="Name" />
           <input v-model="mailData.email" type="email" name="email" placeholder="Email" />
         </div>
         <input class="subject" v-model="mailData.subject" type="text" name="subject" placeholder="Subject" />
