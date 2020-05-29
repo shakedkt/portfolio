@@ -6,7 +6,7 @@
     </div>
 
     <div v-scrollAnimation>
-      <form target="_blank" action="https://formsubmit.co/shakedkat@gmail.com" method="POST">
+      <form target="_blank" action="https://formsubmit.co/shakedkt@walla.co.il" method="POST">
         <div class="name-and-email">
           <input name="fullName" class="name" v-model="mailData.name" type="text" placeholder="Name" />
           <input v-model="mailData.email" type="email" name="email" placeholder="Email" />
