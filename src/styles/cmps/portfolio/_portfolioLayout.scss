@@ -54,6 +54,22 @@
             display: grid;
             grid-template-rows: auto auto;
             grid-template-columns: auto;
+
+            .porject-section-wrapper {
+
+                .tags {
+          
+                    opacity: 0.8;
+
+                    span {
+
+                        opacity: 0.8;
+                        
+                    }
+
+                }
+            }
+
         }
     }
 
@@ -62,7 +78,7 @@
             padding: 30px 50px;
 
             h2 {
-                font-size: rem(30px);
+                font-size: rem(25px);
                 margin-bottom: 5px;
             }
 
