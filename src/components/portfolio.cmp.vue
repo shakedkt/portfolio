@@ -9,10 +9,8 @@
           <h4>Instagram clone</h4>
           <p>My finals project. A fully working end-to-end Instagram clone</p>
           <div id="instagram" class="tags">
-            <!-- <span>HTML5</span> -->
             <span>SASS</span>
             <span>ES6</span>
-            <!-- <span>VUE</span> -->
             <span>VUEX</span>
             <span>NODE.JS</span>
             <span>MONGODB</span>
