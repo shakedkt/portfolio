@@ -24,6 +24,32 @@
         </div>
       </div>
 
+
+  <div class="image-container">
+        <img src="../images/misterbitcoin.png" class="image" />
+        <div class="middle">
+          <h4>MISTER BITCOIN</h4>
+          <p>React project, imitating a digital bitcoin wallet, including transfers, contacts, price graphs and more</p>
+
+          <div class="tags">
+            <span>HTML5</span>
+            <span>SASS</span>
+            <span>REACT</span>
+            <span>REDUX</span>
+            <span>ES6</span>
+          </div>
+
+          <a
+            href="https://shakedkt.github.io/mister-bitcoin-new/"
+            target="_blank"
+            class="link-btn"
+          >
+            <button>visit website</button>
+          </a>
+        </div>
+      </div>
+
+
       <div class="image-container">
         <img src="../images/appsus.png" class="image" />
         <div class="middle">
@@ -56,30 +82,6 @@
 
           <a
             href="https://shakedkt.github.io/proj2-meme-generator/#social"
-            target="_blank"
-            class="link-btn"
-          >
-            <button>visit website</button>
-          </a>
-        </div>
-      </div>
-
-      <div class="image-container">
-        <img src="../images/misterbitcoin.png" class="image" />
-        <div class="middle">
-          <h4>MISTER BITCOIN</h4>
-          <p>React project, imitating a digital bitcoin wallet, including transfers, contacts, price graphs and more</p>
-
-          <div class="tags">
-            <span>HTML5</span>
-            <span>SASS</span>
-            <span>REACT</span>
-            <span>REDUX</span>
-            <span>ES6</span>
-          </div>
-
-          <a
-            href="https://shakedkt.github.io/mister-bitcoin-new/"
             target="_blank"
             class="link-btn"
           >
