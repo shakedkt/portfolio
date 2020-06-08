@@ -129,8 +129,9 @@
             &:before {
                 top: 102px;
                 background-position-y: bottom;
+                background-position-x: center;
                 height: 400px;
-                background-size: contain;
+                background-size: cover;
                 background-image: url('../images/bg-curvy-mobile.svg');
             }
 
