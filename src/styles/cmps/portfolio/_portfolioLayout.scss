@@ -113,6 +113,23 @@
             min-width: 315px;
             height: 250px;
         }
+
+        .porject-section-wrapper {
+            h2 {
+                font-size: 1.8rem;
+                margin-bottom: 5px;
+            }
+        }
+    }
+
+
+    @media only screen and (max-width: 375px) {
+        .porject-section-wrapper {
+            h2 {
+                font-size: 1.6rem;
+                margin-bottom: 5px;
+            }
+        }
     }
 
 }
