@@ -16,7 +16,7 @@
         <input type="hidden" name="_captcha" value="false">
         <input type="hidden" name="_next" value="http://www.shakedkat.com/contact">
 
-        <button @click="submitTheForm" type="submit">Send</button>
+        <button type="submit">Send</button>
       </form>
     </div>
 
@@ -31,11 +31,7 @@ export default {
       mailData: {}
     };
   },
-  methods: {
-    submitTheForm() {
-      this.mailData = "";
-    }
-  }
+
 };
 </script>
 
