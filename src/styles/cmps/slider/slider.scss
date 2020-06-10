@@ -3,9 +3,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 60px;
 
     h1 {
-
+        color: $clr5;
         font-size: rem(40px);
     }
 }
@@ -21,7 +22,7 @@
 }
 
 .slider-agile-vue {
-position: relative;
+    position: relative;
 
     &:before {
         content: '';
@@ -33,8 +34,8 @@ position: relative;
         background-position-y: center;
         background-repeat: no-repeat;
         background-size: cover;
-        opacity: 0.3;
+        opacity: 0;
     }
 
-    max-width: 100%
+    max-width: 100vw
 }

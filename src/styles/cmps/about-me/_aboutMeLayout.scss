@@ -1,6 +1,6 @@
 .main-layout {
 
-  
+
 
     @media (min-width: 1200px) {
         .about-me-wrapper {
@@ -116,8 +116,13 @@
         .about-me-wrapper {
             padding: 30px 30px;
 
+            h2 {
+                font-size: rem(30px);
+                padding-bottom: 15px;
+            }
+
             div {
-                margin-top: 40px;
+                margin-top: 100px;
                 width: 100%;
 
                 .about-me-paragraph {
@@ -150,7 +155,7 @@
     }
 
 
-    
+
 
 
 

@@ -4,7 +4,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 30px 150px;
-    background-color: whitesmoke;
+    background-color: $clr1;
 
     .nav-bar {
         display: flex;
@@ -15,15 +15,21 @@
 
     .link {
         padding: 0px 20px;
-        color: $clr3;
+        color: $clr5;
         font-weight: bold;
-        font-size: rem(18px);
+        font-size: rem(22px);
+        font-family: 'Lato', sans-serif;
+        }
+
+    .link:hover {
+        font-weight: 900;
+        color: $clr6;
     }
 
     button {
         min-width: 130px;
         padding: 15px 30px;
-        background-color: $clr2;
+        background-color: $clr5;
         border-radius: 25px;
         font-weight: bold;
         color: whitesmoke;
@@ -34,7 +40,7 @@
 
     button:hover {
         background-color: whitesmoke;
-        color: $clr2;
+        color: $clr5;
     }
 
     button:focus {outline:0;}
@@ -45,19 +51,20 @@
     min-width: 78px;
     height: 62px;
     font-size: rem(45px);
-    color: $clr2;
-    border: 1px solid $clr2;
+    color: $clr5;
+    border: 1px solid $clr5;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0px 5px;
     user-select: none;
+    border-radius: 5px;
     cursor: pointer;
 }
 
 .hamburger {
     font-size: rem(35px);
-    color: $clr2;
+    color: $clr5;
     cursor: pointer;
 }
 

@@ -6,9 +6,11 @@
     padding: 80px 150px 60px 150px;
     text-align: left;
     margin-bottom: 40px;
+    background-color: $clr1;
+    width: 100vw;
 
     >div {
-        background-color: rgba(242, 242, 242, 0.81);
+        background-color: $clr8;
         border-radius: 30px;
         padding: 15px 10px 15px 15px;
         width: 500px;
@@ -20,13 +22,13 @@
 
     h2 {
         font-size: rem(25px);
-        color: $clr2;
+        color: $clr5;
         text-align: center;
     }
 
     h3 {
         font-size: rem(18px);
-        color: $clr3;
+        color: $clr7;
         padding-right: 5px;
     }
 
@@ -50,7 +52,25 @@
     }
 }
 
+
+
 .about-section {
-    background-color: #F8F8F8;
-    padding-bottom: 40px;
+    background-color: $clr1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    // padding-bottom: 100px;
+
 }
+
+.about-section:before {
+    border-color: transparent transparent #0a0811 #110d1b;
+    border-style: solid;
+    border-width: 0 0 19vw 100vw;
+    content: "";
+    height: 0;
+    left: 0;
+    width: 0;
+  }
+

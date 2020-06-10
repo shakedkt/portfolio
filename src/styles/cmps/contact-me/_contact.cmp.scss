@@ -7,14 +7,15 @@
     transition: 300ms ease-in-out;
     text-align: center;
 
+
     h4 {
         font-size: 25px;
-        color: $clr3;
+        color: $clr7;
     }
 
     h2 {
         font-size: 40px;
-        color: $clr2;
+        color: $clr5;
     }
 
     form {
@@ -38,6 +39,8 @@
         background-color: $clr1;
         outline: 0;
         font-size: 16px;
+        color: $clr7;
+
     }
 
     textarea {
@@ -49,6 +52,8 @@
         outline: 0;
         resize: none;
         font-size: 16px;
+        font-family: 'Lato', sans-serif;
+        color: $clr7;
     }
 
     .name {
@@ -58,7 +63,7 @@
     button {
         min-width: 170px;
         padding: 15px 30px;
-        background-color: $clr2;
+        background-color: $clr5;
         border-radius: 25px;
         font-weight: bold;
         color: whitesmoke;
@@ -70,6 +75,6 @@
 
     button:hover {
         background-color: whitesmoke;
-        color: $clr2;
+        color: $clr5;
     }
 }

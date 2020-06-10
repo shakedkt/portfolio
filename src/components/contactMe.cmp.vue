@@ -1,8 +1,8 @@
 <template>
   <section class="contact-wrapper" id="contact">
     <div v-scrollAnimation>
-      <h4>Contact Me</h4>
-      <h2>Get in Touch</h2>
+      <h4>Get in Touch</h4>
+      <h2>&lt; Contact Me &gt;</h2>
     </div>
 
     <div v-scrollAnimation>

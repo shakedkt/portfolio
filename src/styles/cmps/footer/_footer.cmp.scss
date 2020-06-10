@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     padding: 80px 150px;
-    background-color: whitesmoke;
+    background-color: $clr1;
     text-align: center;
 }
 
@@ -35,6 +35,12 @@
 
     .copyright {
         padding-top: 20px;
+        color: $clr7;
     }
 
+}
+
+.copyright{
+    color: $clr7;
+    font-family: 'Lato', sans-serif;
 }
