@@ -1,5 +1,25 @@
 .main-layout {
 
+
+    @media (min-width: 2000px) {
+        .hero-wrapper {
+            &:before {
+                content: '';
+                position: absolute;
+                width: 100vw;
+                height: 101%;
+                // z-index: -1;
+                background-image: url('../images/curvy-desktop.svg');
+                background-position-y: bottom;
+                background-size: contain;
+                background-repeat: no-repeat;
+                transform: rotate(180deg);
+            }
+        }
+    }
+
+
+
     @media only screen and (min-width: 1450px) {
         .hero-wrapper {
             width: 100vw;
@@ -183,3 +203,6 @@
 
 
 }
+
+
+
