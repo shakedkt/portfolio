@@ -57,13 +57,13 @@
             .porject-section-wrapper {
 
                 .tags {
-          
+
                     opacity: 0.8;
 
                     span {
 
                         opacity: 0.8;
-                        
+
                     }
 
                 }
@@ -119,7 +119,8 @@
             h2 {
                 font-size: 1.8rem;
                 margin-bottom: 5px;
-                width: initial;
+                display: flex;
+                justify-content: center;
             }
         }
     }
