@@ -11,7 +11,7 @@
         <h3>Simple, clean, modern and intuitive design</h3>
 
         <img src="../images/mentor.svg" />
-        <h3>Using best of breed technology frameworks</h3>
+        <h3>specializes in Angular and Vue frameworks </h3>
       </div>
     </div>
 
