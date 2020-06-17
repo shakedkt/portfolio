@@ -20,8 +20,8 @@
     </div>
 
     <div class="copyright">
-      <h2>website desgined by me. &#169;</h2>
-      <p>Copyright 2020 by Shaked Katsir.</p>
+      <h2>website desgined by me.</h2>
+      <p>&#169; Copyright 2020 by Shaked Katsir.</p>
     </div>
   </footer>
 </template>

@@ -1,11 +1,11 @@
 <template>
   <section class="contact-wrapper" id="contact">
-    <div v-scrollAnimation>
+    <div>
       <h4>Get in Touch</h4>
       <h2>&lt; Contact Me &gt;</h2>
     </div>
 
-    <div v-scrollAnimation>
+    <div>
       <form target="_blank" action="https://formsubmit.co/shakedkat@gmail.com" method="POST">
         <div class="name-and-email">
           <input class="name" v-model="mailData.name" name="name" type="text" placeholder="Name" >
