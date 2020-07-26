@@ -22,6 +22,25 @@
         </div>
       </div>
 
+      <div class="image-container">
+        <img src="../images/clothes-and-brands.jpg" class="image" />
+        <div class="middle">
+          <h4>Clothes store market</h4>
+          <p>End to end website website for buying clothes and other wearable items. using React Node.js and </p>
+          <div id="instagram" class="tags">
+            <span>SASS</span>
+            <span>ES6</span>
+            <span>React</span>
+            <span>NODE.JS</span>
+            <span>MONGODB</span>
+          </div>
+
+          <a href="https://shakedinsta.herokuapp.com/#/" target="_blank" class="link-btn">
+            <button>visit website</button>
+          </a>
+        </div>
+      </div>
+
 
   <div class="image-container">
         <img src="../images/misterbitcoin.png" class="image" />
@@ -89,7 +108,7 @@
       </div>
 
       <!-- class="myteam"> -->
-      <div class="image-container">
+      <!-- <div class="image-container">
         <img src="../images/myteam.jpg" class="image" />
         <div class="middle">
           <h4>MYTEAM</h4>
@@ -106,7 +125,7 @@
             <button>visit website</button>
           </a>
         </div>
-      </div>
+      </div> -->
 
       <!-- class="minesweeper"> -->
       <div class="image-container">
