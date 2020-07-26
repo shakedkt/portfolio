@@ -26,7 +26,7 @@
         <img src="../images/clothes-and-brands.jpg" class="image" />
         <div class="middle">
           <h4>Clothes store market</h4>
-          <p>End to end website website for buying clothes and other wearable items. using React Node.js and </p>
+          <p>End to end website for buying clothes and other wearable items. using React Node.js and </p>
           <div id="instagram" class="tags">
             <span>SASS</span>
             <span>ES6</span>
