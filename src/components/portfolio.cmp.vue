@@ -26,16 +26,17 @@
         <img src="../images/clothes-and-brands.jpg" class="image" />
         <div class="middle">
           <h4>Clothes store market</h4>
-          <p>End to end website for buying clothes and other wearable items. using React Node.js and </p>
+          <p>End to end website for buying clothes and other wearable items, including chat room to talk with people about clothes. using React Node.js and SOCKET.IO </p>
           <div id="instagram" class="tags">
             <span>SASS</span>
             <span>ES6</span>
             <span>React</span>
             <span>NODE.JS</span>
             <span>MONGODB</span>
+            <span>SOCKET.IO</span>
           </div>
 
-          <a href="https://shakedinsta.herokuapp.com/#/" target="_blank" class="link-btn">
+          <a href="https://shakedkt98.web.app" target="_blank" class="link-btn">
             <button>visit website</button>
           </a>
         </div>
