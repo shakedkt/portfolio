@@ -26,9 +26,8 @@
         <img src="../images/clothes-and-brands.jpg" class="image" />
         <div class="middle">
           <h4>Clothes store market</h4>
-          <p>End to end website for buying clothes and other wearable items, including chat room to talk with people about clothes. using React Node.js and SOCKET.IO </p>
+          <p>End to end website for buying clothes and other wearable items, including chat room to talk with people around the world. using React Node.js</p>
           <div id="instagram" class="tags">
-            <span>SASS</span>
             <span>ES6</span>
             <span>React</span>
             <span>NODE.JS</span>
