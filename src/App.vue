@@ -6,7 +6,7 @@
 </template>
 <script>
 import navBar from "./components/navbar.cmp";
-
+console.log('meep');
 export default {
   name: "App",
   components: {
