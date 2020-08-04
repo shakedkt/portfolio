@@ -49,6 +49,7 @@ export default {
       nav.contains("active") ? nav.remove("active") : nav.add("active");
     },
     scrollFix: function(hashbang) {
+      console.log('meep');
       location.hash = hashbang;
     }
   },
